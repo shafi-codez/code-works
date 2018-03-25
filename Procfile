@@ -1,1 +1,1 @@
-web: gunicorn app:heroku-flask/app.py
+web: gunicorn app:app --log-file=-
